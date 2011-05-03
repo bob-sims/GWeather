@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+    </deployment-targets>
+    <id>com.bobsims.gweather</id>
+    <name>GWeather</name>
+    <version>1.0</version>
+    <publisher>bob</publisher>
+    <url>http://bobsims.tumblr.com</url>
+    <description>Sample app to query Google's undocumented weather API</description>
+    <copyright>2011 by bob.sims@gmail.com</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>1bec9db9-c5a3-493f-97a4-ef5a1ced15eb</guid>
+	<iphone>
+		<orientations device="iphone">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+		</orientations>
+		<orientations device="ipad">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+			<orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+		</orientations>
+	</iphone>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	</android>
+	<modules>
+	</modules>
+<property name="ti.deploytype">test</property></ti:app>
