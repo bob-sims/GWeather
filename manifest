@@ -1,0 +1,8 @@
+#appname:GWeather
+#publisher:bob
+#url:http://bobsims.tumblr.com
+#image:appicon.png
+#appid:com.bobsims.gweather
+#desc:Sample app to query Google's undocumented weather API
+#type:mobile
+#guid:1bec9db9-c5a3-493f-97a4-ef5a1ced15eb
