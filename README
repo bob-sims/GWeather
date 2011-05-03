@@ -1,9 +1,16 @@
-Welcome to your Appcelerator Titanium Mobile Project
+This is a sample mobile app that I wrote to retrieve Google's undocumented and unsupported international weather API.
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+Change the value of the wx_location variable in Resources/ui.js to change the default location.
 
+This app might be helpful as a component of larger app, such as a conference or "brochure"-type app to show local weather conditions.
 
+This app created using Titanium Mobile.
+
+Known issues:
+
+Currently no error handling.
+
+createActivityIndicator() not working as expected.
 
 ----------------------------------
 Stuff our legal folk make us say:
