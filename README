@@ -1,3 +1,6 @@
+No longer maintained, undocumented/unsupported Google Weather API may no longer be available.
+
+
 This is a sample mobile app that I wrote to retrieve Google's undocumented and unsupported international weather API.
 
 Change the value of the wx_location variable in Resources/ui.js to change the default location.
